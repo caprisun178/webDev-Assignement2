@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: #0A1F44;
+    display: flex;
+}
+
+#title{
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+}
+
+#logo{
+    flex-shrink: 1;
+}
+
+.resturants{
+    display: flex;
+    flex-direction: column;
+}
+
+.resturant{
+    display: flex;
+    background-color: gold;
+}
+
+.resturantLogo{
+    max-height: 200px;
+    max-width: 180px;
+}
+
