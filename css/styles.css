@@ -30,13 +30,28 @@ header{
     flex-direction: column;
 }
 
+
 .resturant{
     display: flex;
     background-color: gold;
+    flex-grow: 0;
+    flex-shrink: 1;
+    max-height: 500px;
+    margin: 5px;
 }
 
-.resturantLogo{
+.resturant-image{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+.resturant-logo{
     max-height: 200px;
     max-width: 180px;
 }
 
+.dishCard{
+    display: flex;
+}
