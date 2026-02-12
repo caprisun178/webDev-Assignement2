@@ -18,7 +18,14 @@ header{
     flex-shrink: 1;
 }
 
-.resturants{
+#intro{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#resturants{
     display: flex;
     flex-direction: column;
 }
