@@ -82,7 +82,7 @@ aside {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 1px;
 }
 
 .dish-card {
