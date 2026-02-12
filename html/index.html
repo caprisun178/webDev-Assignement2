@@ -1,79 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Blog</title>
-    <link rel="stylesheet" href="/css/styles.css"
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Food Blog</title>
+	<link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
-    
-    <header>
-        <section id="logo">
-            <img id="logo" src="/images/uncgLogo.png" alt="UNCG logo">
-        </section>
-        <section id="title">
-            <h1>UNCG Foodie</h1>
-        </section>
-    </header>
-    <section>
 
+	<header>
+	<img id="logo" src="/images/uncgLogo.png" alt="UNCG logo">
+	<h1 id="title">UNCG Foodie</h1>
+	</header>
 
-    </section>
+	<div class="page">
+	<main>
 
-    <main>
-        <section id="intro">
-            <h2>Introduction</h2>
-            <p>I love food! But I really love good food. The point of this blog is to highlight some of my
-                favorite spots here on campus. Let me know if you think they are hits or misses!
+		<section id="intro">
+		<h2>Introduction</h2>
+		<p>
+			I love food! But I really love good food. The point of this blog is to highlight some of my
+			favorite spots here on campus. Let me know if you think they are hits or misses!
+		</p>
+		</section>
+
+		<section id="restaurants">
+		<!-- Restaurant 1 -->
+		<article class="restaurant">
+			<div class="restaurant-image">
+			<img class="restaurant-logo" src="/images/donLogo.png" alt="Don restaurant logo">
+			</div>
+
+			<div class="restaurant-info">
+			<h2>Don</h2>
+			<p>
+                Simple, booth-lined Japanese restaurant specializing in hot entrees like donburi, teriyaki &amp; ramen.
             </p>
-        </section>
 
-        <section id = 'resturants'>
-            <article class="resturant">
-                <img class="resturantLogo" src="/images/donLogo.png" alt="DON logo">
-                 <h2>Don</h2>
-                 <p>Simple, booth-lined Japanese restaurant specializing in hot entrees like donburi, teriyaki & ramen.</p>
-            </article>
-            <article class="resturant">
-                <section class="restraunt-image">
-                    <img class="resturantLogo"  src="/images/chipotleLogo.jpg" alt="Chiptole logo">
-                    </section>
-               <section class="resturant-info">
-                    <h2>Chipotle</h2>
-                    <p>Chipotle Mexican Grill, Inc., often known simply as Chipotle, is an American multinational chain of fast casual 
-                        restaurants specializing in bowls, tacos, and Mission burritos made to order in front of the customer. As of 
-                        December 2025, Chipotle has 4,000 locations.
-                    </p>
-                </section>
-            </article>
-            <article class="resturant">
-                <section class="restraunt-image">
-                    <img class="resturant-logo"  src="/images/slicesLogo.png" alt="UNCG logo">
-                </section>
-                <section class="resturant-info">
-                    <h2>Slices By Tony</h2>
-                    <p>Hand-tossed Italian slices and fan-favorite pies, made fresh daily with simple ingredients and a neighborhood, 
-                        college-friendly vibe.</p>
-                </section>
-            </article>
-        </section>
-        <aside>
-            <img src="/images/Profile.jpg">
-            <h3>A little about me!</h3>
-            <p>Hey all my name is caprisun! I am an undergraduate here at UNCG working on getting my BS
-                in Computer Science. Being a Yankee (specifically an Italian-American) I love quality food 
-                and I dont settle for less!
-            </p>
-        </aside>
+			<div class="dish-cards">
+			</div>
+			</div>
+		</article>
 
-        <section   id="contact">
+		<!-- Restaurant 2 -->
+		<article class="restaurant">
+			<div class="restaurant-image">
+			<img class="restaurant-logo" src="/images/chipotleLogo.jpg" alt="Chipotle logo">
+			</div>
 
-        </section>
-    </main>
+			<div class="restaurant-info">
+			<h2>Chipotle</h2>
+			<p>
+				Chipotle Mexican Grill is a fast casual chain specializing in bowls, tacos, and burritos made to order.
+			</p>
 
-    <footer>
+			<div class="dish-cards">
+			</div>
+			</div>
+		</article>
 
-    </footer>
+		<!-- Restaurant 3 -->
+		<article class="restaurant">
+			<div class="restaurant-image">
+			<img class="restaurant-logo" src="/images/slicesLogo.png" alt="Slices by Tony logo">
+			</div>
+
+			<div class="restaurant-info">
+			<h2>Slices By Tony</h2>
+			<p>
+				Hand-tossed Italian slices and fan-favorite pies, made fresh daily with simple ingredients and a neighborhood,
+				college-friendly vibe.
+			</p>
+
+			<div class="dish-cards">
+			</div>
+			</div>
+		</article>
+		</section>
+
+		<section id="contact">
+		<h2>Contact</h2>
+		<p>
+            Let me know if you checked out these resturants. Did you like them or hate them? 
+            email me at: fakeEmail.@gmail.edu
+        </p>
+		</section>
+
+	</main>
+
+	<aside>
+		<img src="/images/Profile.jpg" alt="Profile photo">
+		<h3>A little about me!</h3>
+		<p>
+		Hey all my name is caprisun! I am an undergraduate here at UNCG working on getting my BS
+		in Computer Science. Being a Yankee (specifically an Italian-American) I love quality food
+		and I don’t settle for less!
+		</p>
+	</aside>
+	</div>
+
+	<footer>
+	<p>&copy; 2026 UNCG Foodie</p>
+	</footer>
+
 </body>
 </html>
